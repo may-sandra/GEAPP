@@ -1,0 +1,202 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 180 100% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 180 100% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 100% 8%;
+
+    --primary: 180 100% 8%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 180 70% 95%;
+    --secondary-foreground: 180 100% 8%;
+
+    --muted: 180 70% 95%;
+    --muted-foreground: 180 60% 25%;
+
+    --accent: 25 87% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 180 30% 90%;
+    --input: 180 30% 90%;
+    --ring: 180 100% 8%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 180 30% 20%;
+    --sidebar-primary: 180 100% 8%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 180 20% 95%;
+    --sidebar-accent-foreground: 180 100% 8%;
+    --sidebar-border: 180 30% 90%;
+    --sidebar-ring: 180 100% 8%;
+    
+    /* Teal palette */
+    --teal-50: #e6ffff;
+    --teal-100: #b3ffff;
+    --teal-200: #80ffff;
+    --teal-300: #4dffff;
+    --teal-400: #1affff;
+    --teal-500: #00cccc;
+    --teal-600: #009999;
+    --teal-700: #006666;
+    --teal-800: #003333;
+    --teal-900: #002a2a;
+    
+    /* Orange palette */
+    --orange: #e6671e;
+    --orange-50: #fff3e6;
+    --orange-100: #ffddb3;
+    --orange-200: #ffc680;
+    --orange-300: #ffaf4d;
+    --orange-400: #ff981a;
+    --orange-500: #e6671e;
+    --orange-600: #cc5200;
+    --orange-700: #993d00;
+    --orange-800: #662900;
+    --orange-900: #331400;
+  }
+
+  .dark {
+    --background: 180 100% 3%;
+    --foreground: 180 20% 90%;
+
+    --card: 180 100% 5%;
+    --card-foreground: 180 20% 90%;
+
+    --popover: 180 100% 5%;
+    --popover-foreground: 180 20% 90%;
+
+    --primary: 180 60% 50%;
+    --primary-foreground: 180 100% 5%;
+
+    --secondary: 180 30% 15%;
+    --secondary-foreground: 180 20% 90%;
+
+    --muted: 180 30% 15%;
+    --muted-foreground: 180 20% 60%;
+
+    --accent: 25 87% 51%;
+    --accent-foreground: 180 20% 90%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 180 20% 90%;
+
+    --border: 180 30% 15%;
+    --input: 180 30% 15%;
+    --ring: 180 60% 50%;
+    
+    --sidebar-background: 180 100% 7%;
+    --sidebar-foreground: 180 20% 90%;
+    --sidebar-primary: 180 60% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 180 30% 15%;
+    --sidebar-accent-foreground: 180 20% 90%;
+    --sidebar-border: 180 30% 15%;
+    --sidebar-ring: 180 60% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl leading-tight;
+  }
+
+  h4 {
+    @apply text-xl leading-tight;
+  }
+
+  h5 {
+    @apply text-lg leading-tight;
+  }
+
+  h6 {
+    @apply text-base leading-tight;
+  }
+}
+
+@layer components {
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:translate-y-[-2px];
+  }
+  
+  .glass-panel {
+    @apply bg-white/80 dark:bg-black/50 backdrop-blur-md border border-white/20 dark:border-black/20 shadow-sm;
+  }
+  
+  .tag {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .animate-in {
+    animation-delay: calc(var(--index) * 100ms);
+  }
+
+  .chart-container {
+    @apply p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-100 dark:border-gray-700;
+  }
+  
+  .teal-card {
+    @apply border-t-4 border-t-teal-900 bg-teal-900/5;
+  }
+  
+  .teal-card-header {
+    @apply bg-teal-900/10 dark:bg-teal-900/30;
+  }
+  
+  .teal-accent {
+    @apply text-teal-700 dark:text-teal-400;
+  }
+  
+  .orange-accent {
+    @apply text-orange dark:text-orange-400;
+  }
+  
+  /* Map theme styles */
+  .dark-map {
+    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+  }
+  
+  .light-map {
+    filter: brightness(105%) contrast(105%) saturate(105%);
+  }
+  
+  .watercolor-map {
+    filter: saturate(110%) contrast(105%);
+  }
+}

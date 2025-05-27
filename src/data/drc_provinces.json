@@ -1,0 +1,281 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Bas-Uele",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.75, 3.0], [25.5, 3.0], [25.5, 4.0], [24.75, 4.0], [24.75, 3.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Equateur",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[21.0, -1.0], [22.0, -1.0], [22.0, 0.0], [21.0, 0.0], [21.0, -1.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Haut-Katanga",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.5, -11.0], [27.5, -11.0], [27.5, -10.0], [26.5, -10.0], [26.5, -11.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Haut-Lomami",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.0, -9.25], [26.0, -9.25], [26.0, -8.25], [25.0, -8.25], [25.0, -9.25]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Haut-Uele",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[28.0, 3.5], [29.0, 3.5], [29.0, 4.5], [28.0, 4.5], [28.0, 3.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Ituri",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[29.6, 0.95], [30.6, 0.95], [30.6, 1.95], [29.6, 1.95], [29.6, 0.95]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Kasai",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[21.5, -6.7], [22.5, -6.7], [22.5, -5.7], [21.5, -5.7], [21.5, -6.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Kasai-Central",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[21.5, -6.4], [22.5, -6.4], [22.5, -5.4], [21.5, -5.4], [21.5, -6.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Kasai-Oriental",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.0, -6.7], [24.0, -6.7], [24.0, -5.7], [23.0, -5.7], [23.0, -6.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Kinshasa",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[14.8, -4.82], [15.8, -4.82], [15.8, -3.82], [14.8, -3.82], [14.8, -4.82]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Kongo-Central",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[12.7, -6.0], [13.7, -6.0], [13.7, -5.0], [12.7, -5.0], [12.7, -6.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Kwango",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[17.5, -6.0], [18.5, -6.0], [18.5, -5.0], [17.5, -5.0], [17.5, -6.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Kwilu",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[18.5, -4.7], [19.5, -4.7], [19.5, -3.7], [18.5, -3.7], [18.5, -4.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Lomami",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.0, -8.0], [25.0, -8.0], [25.0, -7.0], [24.0, -7.0], [24.0, -8.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Lualaba",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.5, -11.2], [26.5, -11.2], [26.5, -10.2], [25.5, -10.2], [25.5, -11.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Mai-Ndombe",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[17.7, -2.6], [18.7, -2.6], [18.7, -1.6], [17.7, -1.6], [17.7, -2.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Maniema",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.6, -3.6], [26.6, -3.6], [26.6, -2.6], [25.6, -2.6], [25.6, -3.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Mongala",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[20.6, 1.6], [21.6, 1.6], [21.6, 2.6], [20.6, 2.6], [20.6, 1.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Nord-Kivu",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[28.5, -1.4], [29.5, -1.4], [29.5, -0.4], [28.5, -0.4], [28.5, -1.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Nord-Ubangi",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[19.7, 3.6], [20.7, 3.6], [20.7, 4.6], [19.7, 4.6], [19.7, 3.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Sud-Kivu",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[28.3, -3.4], [29.3, -3.4], [29.3, -2.4], [28.3, -2.4], [28.3, -3.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Sud-Ubangi",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[18.7, 1.6], [19.7, 1.6], [19.7, 2.6], [18.7, 2.6], [18.7, 1.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Tanganyika",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[29.0, -7.0], [30.0, -7.0], [30.0, -6.0], [29.0, -6.0], [29.0, -7.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Tshopo",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.0, 0.6], [26.0, 0.6], [26.0, 1.6], [25.0, 1.6], [25.0, 0.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADM1_EN": "Tshuapa",
+        "ISO": "COD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.5, 0.0], [23.5, 0.0], [23.5, 1.0], [22.5, 1.0], [22.5, 0.0]]]
+      }
+    }
+  ]
+}
